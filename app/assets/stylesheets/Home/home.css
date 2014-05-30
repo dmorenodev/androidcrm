@@ -1,0 +1,89 @@
+
+/*Estilo Navegador*/
+.navegador{
+    padding-top: 50px;
+    background-color: #E86A32;
+    margin-left: -15px;
+    margin-right:-15px;
+}
+.masthead-nav > li {
+    display: inline-block;
+}
+.masthead-nav > li + li {
+    padding-left: 20px;
+}
+.masthead-nav > li > a {
+    text-decoration: none;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ACA89A;
+    border-bottom: 3px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color:#5A5350;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+    color: #5A5350;
+    border-bottom-color: #5A5350;
+}
+
+/*Estilo Banner*/
+
+.banner{
+    background-color: #e86a32;
+    height: 400px;
+}
+.banner-descripcion{
+    text-align: center;
+    width: 600px;
+}
+.imagen-banner {
+    position: absolute ;
+    top: 70px;
+    right: 150px;
+    z-index: 10;
+}
+
+
+/*Estilo Marketing*/
+.marketing{
+    margin-top: 150px;
+    text-align: center;
+
+}
+.marketing-circulo{
+    margin:0 auto 0 auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-color: #E86A32 ;
+}
+.centrado-vertical{
+    margin-top: 40px;
+
+}
+
+/*Estilo Descripcion*/
+.descripcion-header{
+    text-align: left;
+}
+.descripcion-header span {
+    display: inline;
+    padding: 0 0 0.6em 0.1em;
+    font-size: 60%;
+    color: #aca89a;
+}
+
+.descripcion{
+    text-align: left;
+    font-size: 16px;
+}
+#showMenu{
+    margin-left: 35%;
+}
